@@ -28,4 +28,4 @@ Route::get('/team', [TeamController::class, 'index'])->name('team');
 Route::get('/testimonial', [TestimonialController::class, 'index'])->name('testimonial');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/register', [RegistrationController::class, 'index'])->name('register');
-Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/login', [LoginController::class, 'index'])->name('login');
